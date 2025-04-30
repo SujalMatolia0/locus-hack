@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  color: #fff;
+
+  background: linear-gradient(
+    135deg,
+    #01373d 40%,   
+    #c1f43d 100%, 
+    #f2e0c9 120%  
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.no-pointer {
+  cursor: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+::-moz-selection {
+  color: var(--mantine-color-white);
+  background: var(--mantine-color-red-7);
+}
+
+::selection {
+  color: var(--mantine-color-white);
+  background: var(--mantine-color-red-7);
+}
+
+html,
+body {
+  user-select: none;
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
