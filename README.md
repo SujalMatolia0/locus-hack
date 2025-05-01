@@ -13,7 +13,7 @@ Locus is a full-stack web platform designed to **host and manage AI/ML hackathon
 - 🧾 **Participation certificates** generated and downloadable post-event
 - 🧰 **Admin tools** to create, edit, and delete events
 - 📊 **Next.js frontend** with Mantine for responsive UI
-- ⚙️ **AdonisJS REST API**, organized under `/api/v1/`
+- ⚙️ **NEXT.js APP ROUTER**, organized under `/api/v1/`
 
 ---
 
@@ -22,7 +22,7 @@ Locus is a full-stack web platform designed to **host and manage AI/ML hackathon
 | Layer     | Technology            |
 |-----------|------------------------|
 | Frontend  | Next.js, TypeScript, Mantine |
-| Backend   | AdonisJS (REST API)    |
+| Backend   | Next.js (APP ROUTER)    |
 | Database  | PostgreSQL (via Prisma ORM) |
 | Auth      | GitHub OAuth           |
 | Storage   | Submissions in DB      |
@@ -36,11 +36,9 @@ Locus is a full-stack web platform designed to **host and manage AI/ML hackathon
 /backend
   └── start, app, routes (AdonisJS API)
   └── prisma (DB models)
-  └── Dockerfile
 /frontend
   └── app, components, pages (Next.js with Mantine)
   └── lib/api (Reusable API client like tRPC)
-  └── Dockerfile
 /packages
   └── shared utils or local packages (if any)
 ```
@@ -91,7 +89,7 @@ model Certificate {
 
 ---
 
-## 📋 API Overview (AdonisJS `/api/v1`)
+## 📋 API Overview (NEXT.js `/api/v1`)
 
 - `POST /auth/github/callback` – GitHub OAuth callback
 - `GET /hackathons` – List available events
