@@ -8,7 +8,7 @@ export const LandingHero = () => {
     <>
       <Stack justify="space-evenly" align="center" mih="90vh">
         <Title c={COLOR.GREEN} size={MD ? '10vw' : '15vw'}>
-          HACKSPHERE
+          Locus
         </Title>
         <Stack align="center">
           <Text c={COLOR.PEACH} size={MD ? '4vw' : '7vw'}>

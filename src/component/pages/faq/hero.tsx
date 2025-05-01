@@ -23,7 +23,7 @@ const DATA = [
   {
     question: 'Where do I start?',
     answer:
-      'Sign up on HackSphere and join the dashboard. You’ll receive updates before each round begins.',
+      'Sign up on Locus and join the dashboard. You’ll receive updates before each round begins.',
   },
   {
     question: 'Are there prizes?',
@@ -60,14 +60,14 @@ export const FAQHero = () => {
                   <AspectRatio ratio={16 / 9}>
                     <Image
                       src="https://img.freepik.com/free-photo/coding-concept-with-person-front-screen_23-2150062013.jpg"
-                      alt="HackSphere Hackathon"
+                      alt="Locus Hackathon"
                     />
                   </AspectRatio>
                   <Stack gap="xl" pt="xl">
                     <Title c={COLOR.GREEN}>Overview</Title>
                     <Stack gap={1}>
                       <Text>
-                        HackSphere is a dynamic, time-bound innovation sprint
+                        Locus is a dynamic, time-bound innovation sprint
                         that empowers creators, developers, and designers to
                         build impactful projects based on surprise themes and
                         challenges.
@@ -79,7 +79,7 @@ export const FAQHero = () => {
                         and storytelling!
                       </Text>
                       <Text>
-                        All submissions must be made through your HackSphere
+                        All submissions must be made through your Locus
                         dashboard and meet the round&apos;s specific criteria to
                         be eligible for points, recognition, or prizes.
                       </Text>
@@ -136,7 +136,7 @@ export const FAQHero = () => {
                       <Text>
                         To submit, publish your day’s build to the Webflow
                         Showcase as a cloneable project and submit the link in
-                        your HackSphere user dashboard.
+                        your Locus user dashboard.
                       </Text>
                       <List>
                         <List.Item>
@@ -144,7 +144,7 @@ export const FAQHero = () => {
                           <b>Day X | Participant First & Last Name</b>
                         </List.Item>
                         <List.Item>
-                          Consider tagging your project with “HackSphere” to
+                          Consider tagging your project with “Locus” to
                           improve discoverability.
                         </List.Item>
                         <List.Item>
@@ -170,7 +170,7 @@ export const FAQHero = () => {
                           Publish your site publicly in the Webflow showcase.
                         </List.Item>
                         <List.Item>
-                          Submit the link in the HackSphere dashboard before
+                          Submit the link in the Locus dashboard before
                           12:00 PM (event time).
                         </List.Item>
                         <List.Item>
@@ -180,7 +180,7 @@ export const FAQHero = () => {
                       </List>
                       <Text>
                         <b>Pro Tip:</b> Make your showcase entry public before
-                        submitting inside HackSphere. Add proper title and tags
+                        submitting inside Locus. Add proper title and tags
                         to make it easier for the judges to locate your work.
                       </Text>
                     </Stack>

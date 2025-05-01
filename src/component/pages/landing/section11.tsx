@@ -29,14 +29,14 @@ export const LandingSectionEleven = () => {
               c={COLOR.GREEN}
               ta={MD ? 'center' : 'left'}
             >
-              HackSphere Virtual Hub{' '}
+              Locus Virtual Hub{' '}
             </Title>
           </Stack>
 
           <Stack align="center" px={MD ? 0 : 12}>
             <Text c={COLOR.PEACH} size={MD ? 'md' : 'sm'} maw={700} ta="center">
-              HackSphere 2025 will take place inside a custom-built interactive
-              world in the HackSphere Virtual Hub – get ready for a uniquely
+              Locus 2025 will take place inside a custom-built interactive
+              world in the Locus Virtual Hub – get ready for a uniquely
               immersive and collaborative online hackathon adventure.
             </Text>
             <CommonButton title="Learn More" />

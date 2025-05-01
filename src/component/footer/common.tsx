@@ -14,7 +14,7 @@ export const CommonFooter = () => {
         tt="capitalize"
         fw={700}
       >
-        HACKSPHERE
+        Locus
       </Title>
 
       <Stack align="center" w="100%">

@@ -17,11 +17,11 @@ import { Children } from 'react';
 const DATA = [
   {
     title: 'WHAT IS ',
-    titleSpan: '#HACKSPHERE',
-    heading: 'Welcome to the Future of Hackathons — Powered by HACKSPHERE',
+    titleSpan: '#Locus',
+    heading: 'Welcome to the Future of Hackathons — Powered by Locus',
     description: [
-      'HackSphere is a multi-day innovation sprint built for coders, designers, and problem-solvers to unleash their ideas, learn, and create — together.',
-      'Inspired by real-world challenges, HackSphere provides exciting prompts and themes that drive creativity, collaboration, and competition.',
+      'Locus is a multi-day innovation sprint built for coders, designers, and problem-solvers to unleash their ideas, learn, and create — together.',
+      'Inspired by real-world challenges, Locus provides exciting prompts and themes that drive creativity, collaboration, and competition.',
     ],
     button: 'Explore Guidelines & FAQ',
   },
@@ -30,8 +30,8 @@ const DATA = [
     titleSpan: '#PARTICIPATE',
     heading: 'Win Rewards. Earn Recognition.',
     description: [
-      'Winning HackSphere puts you on the map — unlock prizes, gain visibility, and join an elite league of builders from around the globe.',
-      "Backed by powerful tech partners and sponsors, HackSphere's prize pool ensures fierce competition and massive opportunities.",
+      'Winning Locus puts you on the map — unlock prizes, gain visibility, and join an elite league of builders from around the globe.',
+      "Backed by powerful tech partners and sponsors, Locus's prize pool ensures fierce competition and massive opportunities.",
     ],
     button: ' Explore Rewards',
   },
@@ -40,8 +40,8 @@ const DATA = [
     titleSpan: '#COMMUNITY',
     heading: 'Driven by Developers, Designers, and Dreamers Worldwide.',
     description: [
-      'HackSphere was envisioned by a global team passionate about empowering communities through open innovation and inclusive hackathons.',
-      'HackSphere is scaling up, with bigger ideas, broader reach, and deeper impact. Are you ready to build the future?',
+      'Locus was envisioned by a global team passionate about empowering communities through open innovation and inclusive hackathons.',
+      'Locus is scaling up, with bigger ideas, broader reach, and deeper impact. Are you ready to build the future?',
     ],
     button: 'Explore Our Journey',
   },

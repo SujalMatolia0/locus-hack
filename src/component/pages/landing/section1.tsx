@@ -24,7 +24,7 @@ export const LandingSectionOne = () => {
         py={SIZE_CONFIG.SECTION_SPACE}
         px={SIZE_CONFIG.PADDING_X}
       >
-        <Title>HACKSPHERE Winners</Title>
+        <Title>Locus Winners</Title>
         <Table>
           <Table.Thead>
             <Table.Tr>

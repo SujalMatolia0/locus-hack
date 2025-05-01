@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -8,11 +9,11 @@ html, body {
   color: #fff;
 
   background: linear-gradient(
-    135deg,
-    #01373d 40%,   
-    #c1f43d 100%, 
-    #f2e0c9 120%  
-  );
+  135deg,
+  #0a0a12 0%,     /* Darker Charcoal Navy */
+  #1f6e7f 50%,     /* Darker Muted Cyan Blue */
+  #8a8f97 100%     /* Darker Cool Silver-Gray */
+);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

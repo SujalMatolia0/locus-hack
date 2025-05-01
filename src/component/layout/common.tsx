@@ -30,7 +30,7 @@ export const CommonLayout = (props: CommonLayoutProps) => {
           : {})}
         padding={0}
       >
-        <AppShell.Header withBorder={false}>{props.header}</AppShell.Header>
+        <AppShell.Header bg="transparent" withBorder={false}>{props.header}</AppShell.Header>
 
         <AppShell.Main>
           <Container mih="100vh" px={props.p ?? 0} py={100} size={2000}>
