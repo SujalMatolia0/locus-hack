@@ -1,6 +1,6 @@
 import { COLOR } from '@/config/colors';
 import { useMediaQuerys } from '@/lib/hooks/use-media-querys';
-import { Button, Stack, Text, Title } from '@mantine/core';
+import { Stack, Text, Title } from '@mantine/core';
 
 export const LandingHero = () => {
   const { MD } = useMediaQuerys();
